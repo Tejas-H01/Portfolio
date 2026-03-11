@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tejas Halvankar — Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Systems-focused developer portfolio featuring AI, real-time platforms, and civic tech."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-blobs" aria-hidden="true">
+      <span class="blob blob-a"></span>
+      <span class="blob blob-b"></span>
+      <span class="blob blob-c"></span>
+    </div>
+    <div class="particles" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="profile-card reveal">
+          <div class="profile-placeholder">
+            <img
+              src="assets/images/profile.jpeg"
+              alt="Tejas Halvankar portrait"
+            />
+            <span>[ PROFILE IMAGE PLACEHOLDER ]</span>
+          </div>
+          <h1>Tejas Halvankar</h1>
+          <p class="role">Software Engineer • Backend & Frameworks</p>
+          <button class="contact-toggle" type="button">Show Contacts</button>
+          <div class="contact-list">
+            <div>
+              <p class="label">Email</p>
+              <a href="mailto:tejashalvankar0@gmail.com"
+                >tejashalvankar0@gmail.com</a
+              >
+            </div>
+            <div>
+              <p class="label">GitHub</p>
+              <a
+                href="https://github.com/Tejas-H01"
+                target="_blank"
+                rel="noreferrer"
+                >github.com/Tejas-H01</a
+              >
+            </div>
+            <div>
+              <p class="label">LinkedIn</p>
+              <a
+                href="https://linkedin.com/in/tejashalvankar"
+                target="_blank"
+                rel="noreferrer"
+                >linkedin.com/in/tejashalvankar</a
+              >
+            </div>
+          </div>
+          <div class="side-actions">
+            <a
+              class="btn btn-primary"
+              href="https://github.com/Tejas-H01"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+            <a class="btn btn-outline" href="#" aria-label="Resume placeholder"
+              >Resume</a
+            >
+          </div>
+        </div>
+
+        <nav class="side-nav reveal">
+          <a href="#home">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#journey">Journey</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <section id="home" class="section hero">
+          <div class="hero-text reveal">
+            <p class="eyebrow">Backend engineer • Systems builder</p>
+            <h2>Software Engineer | Systems Builder | AI + Full Stack</h2>
+            <p class="lead">
+              Backend-focused engineer building scalable services, developer
+              tools, and data-driven platforms for real-world impact.
+            </p>
+          </div>
+        </section>
+
+      <section id="about" class="section about">
+        <div class="section-head reveal">
+          <h3>About</h3>
+          <p>
+            Backend-focused Information Technology student building scalable
+            software applications, distributed systems, and analytics-driven
+            platforms. Experienced in REST APIs, Spring Boot services, and
+            developer tooling that streamlines engineering workflows.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="section-head reveal">
+          <h3>Projects</h3>
+          <p>Flagship builds across AI, real-time monitoring, and civic systems.</p>
+        </div>
+        <div class="card-grid">
+          <article class="project-card reveal">
+            <div class="card-icon">🛰️</div>
+            <div class="card-body">
+              <h4>GeoWatch</h4>
+              <p>
+                Real-time platform that processes GPS incident data and runs
+                geospatial analytics to detect crowd-risk zones during large
+                public events.
+              </p>
+              <div class="tags">
+                <span>Flutter</span>
+                <span>React</span>
+                <span>Spring Boot</span>
+                <span>PostgreSQL</span>
+                <span>WebSockets</span>
+              </div>
+            </div>
+            <a
+              class="card-link"
+              href="https://github.com/Tejas-H01/GeoWatch"
+              target="_blank"
+              rel="noreferrer"
+              >View on GitHub</a
+            >
+          </article>
+
+          <article class="project-card reveal">
+            <div class="card-icon">🧭</div>
+            <div class="card-body">
+              <h4>AASHA</h4>
+              <p>
+                Offline-first healthcare app that structures voice/text health
+                data and flags high-risk cases in low-connectivity environments.
+              </p>
+              <div class="tags">
+                <span>React (PWA)</span>
+                <span>Spring Boot</span>
+                <span>Python</span>
+                <span>PostgreSQL</span>
+              </div>
+            </div>
+            <a
+              class="card-link"
+              href="https://github.com/Tejas-H01/Aasha"
+              target="_blank"
+              rel="noreferrer"
+              >View on GitHub</a
+            >
+          </article>
+
+          <article class="project-card reveal">
+            <div class="card-icon">🧩</div>
+            <div class="card-body">
+              <h4>GitGo</h4>
+              <p>
+                VS Code extension that automates publishing solutions to GitHub,
+                generating project structure, docs, and Git workflows in one
+                command.
+              </p>
+              <div class="tags">
+                <span>TypeScript</span>
+                <span>Node.js</span>
+                <span>VS Code API</span>
+                <span>Git</span>
+              </div>
+            </div>
+            <a
+              class="card-link"
+              href="https://github.com/Tejas-H01/GitGo"
+              target="_blank"
+              rel="noreferrer"
+              >View on GitHub</a
+            >
+          </article>
+
+          <article class="project-card reveal">
+            <div class="card-icon">🧠</div>
+            <div class="card-body">
+              <h4>MindMeal</h4>
+              <p>
+                AI-powered recipe app that recommends meals from ingredients and
+                generates food images using external AI APIs.
+              </p>
+              <div class="tags">
+                <span>FastAPI</span>
+                <span>Python</span>
+                <span>JavaScript</span>
+                <span>GitHub Pages</span>
+              </div>
+            </div>
+            <a
+              class="card-link"
+              href="https://github.com/Tejas-H01/Mind-Meal"
+              target="_blank"
+              rel="noreferrer"
+              >View on GitHub</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="section-head reveal">
+          <h3>Skills</h3>
+          <p>Backend engineering with modern frameworks, data systems, and tooling.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h4>Programming Languages</h4>
+            <div class="chips">
+              <span>Java</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h4>Backend & Frameworks</h4>
+            <div class="chips">
+              <span>Spring Boot</span>
+              <span>Spring Framework</span>
+              <span>Hibernate</span>
+              <span>FastAPI</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h4>Databases</h4>
+            <div class="chips">
+              <span>PostgreSQL</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h4>Tools & Platforms</h4>
+            <div class="chips">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Maven</span>
+              <span>Postman</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h4>Backend Focus</h4>
+            <div class="chips">
+              <span>REST APIs</span>
+              <span>Distributed systems</span>
+              <span>Developer tools</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section certifications">
+        <div class="section-head reveal">
+          <h3>Certifications</h3>
+          <p>Recent cloud and AI credentials with verified training partners.</p>
+        </div>
+        <div class="cert-grid">
+          <div class="cert-card reveal">
+            <h4>AWS Cloud Practitioner Essentials</h4>
+            <p>AWS Training & Certification • 2025</p>
+          </div>
+          <div class="cert-card reveal">
+            <h4>AI Agents Intensive Course</h4>
+            <p>Kaggle x Google • 2025</p>
+          </div>
+          <div class="cert-card reveal">
+            <h4>Oracle Cloud Infrastructure 2025 Certified Generative AI Professional</h4>
+            <p>Oracle University</p>
+          </div>
+          <div class="cert-card reveal">
+            <h4>Java, C, C++ Course Completion</h4>
+            <p>Spoken Tutorial IIT Bombay • 2024</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="journey" class="section journey">
+        <div class="section-head reveal">
+          <h3>Experience / Journey</h3>
+          <p>Education, leadership, and community-building highlights.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="dot"></span>
+            <div>
+              <h4>Saraswati Institute of Technology, Kharghar (2022 – 2025)</h4>
+              <p>Diploma in Computer Engineering • 94.00%</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="dot"></span>
+            <div>
+              <h4>Thadomal Shahani Engineering College, Bandra (2025 – 2028)</h4>
+              <p>B.Tech, Computer Science & Engineering</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="dot"></span>
+            <div>
+              <h4>CodeCell Club, TSEC — Team Member</h4>
+              <p>Organized coding competitions and events, including Enigma.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="dot"></span>
+            <div>
+              <h4>RuntimeSync — Co-Founder</h4>
+              <p>Co-founded a GitHub organization to coordinate dev workflows.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="dot"></span>
+            <div>
+              <h4>Projects & Product Building</h4>
+              <p>Shipping backend systems and developer tools in team settings.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-head reveal">
+          <h3>Contact</h3>
+          <p>Let’s talk about the next system you want to launch.</p>
+        </div>
+        <div class="contact-card reveal">
+          <div>
+            <p class="label">Email</p>
+            <a href="mailto:tejashalvankar0@gmail.com"
+              >tejashalvankar0@gmail.com</a
+            >
+          </div>
+          <div>
+            <p class="label">GitHub</p>
+            <a
+              href="https://github.com/Tejas-H01"
+              target="_blank"
+              rel="noreferrer"
+              >github.com/Tejas-H01</a
+            >
+          </div>
+          <div>
+            <p class="label">LinkedIn</p>
+            <a
+              href="https://linkedin.com/in/tejashalvankar"
+              target="_blank"
+              rel="noreferrer"
+              >linkedin.com/in/tejashalvankar</a
+            >
+          </div>
+        </div>
+      </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <p>Designed and built for GitHub Pages • 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
